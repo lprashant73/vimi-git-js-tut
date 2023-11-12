@@ -34,4 +34,3 @@ function a(x, cb) {
     console.log('Finish');
 };
 a(5, b);
-#New line is added for a test.
