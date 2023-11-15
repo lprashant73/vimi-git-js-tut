@@ -35,13 +35,13 @@ function a(x, cb) {
     console.log('Finish');
 };
 a(5, b); */
-console.log('Start')
+console.log('Start.')
 async function a() {
     let result;
     try {
         result = await new Promise((resolve, reject) => {
             setTimeout(() => {
-                const success = true;
+                const success = false;
                 if (success) {
                     resolve('Resolved return this value.');
                 }
@@ -52,10 +52,10 @@ async function a() {
         });
         console.log('Data fetched by the promise: ', result)
 
-    } catch {
+    } catch(err) {
         console.log(err)
     };
     ;
 };
 a();
-console.log('finished')
+console.log('finished.')
