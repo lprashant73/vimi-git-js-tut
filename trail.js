@@ -1,14 +1,5 @@
 //Asynchronous programming in Javascript.
-/* console.log('Start');
-console.log(a);
-let a;
-//console.log(b);
-let b = () => {
-    console.log(`Hello, i'm function "a"......`);
-};
-function a() {
-    console.log(`Hello, i'm function "b"`)
-}; */
+console.log('Start');
 /* function b() {
     let x = 0;
     for (i = 0; i <= 1000000000; i++) {
@@ -16,14 +7,14 @@ function a() {
     }
     console.log('The loop running in b has been completed.')
 }; */
-/* function a() {
+function a() {
     setTimeout(() => {
         console.log("Hello there, how are you?");
     }, 5000);
-}; 
-a(); */
+};
+a();
 //b();
-//console.log("Finish");
+console.log("Finish");
 /* function b(p, cb) {
     let r = p + 5;
     let a = cb(r);
@@ -91,3 +82,4 @@ calling_function(); */
     setTimeout(() => console.log(result), 5000);
 };
 call_function(); */
+
